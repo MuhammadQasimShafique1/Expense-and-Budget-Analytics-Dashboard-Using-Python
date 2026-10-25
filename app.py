@@ -8,7 +8,7 @@ st.title("📊 Budget & Expense Monitoring Dashboard")
 st.caption("Demo dataset is synthetic. Replace CSVs with verified company records before using findings for decisions.")
 
 ROOT = Path(__file__).parent
-DATA = ROOT / "data"
+DATA = ROOT 
 
 @st.cache_data
 def load_data():
